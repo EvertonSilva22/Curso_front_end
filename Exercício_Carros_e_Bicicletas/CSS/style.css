@@ -26,3 +26,24 @@ h2{
 p{
     color:#b2b2b2;
 }
+
+.modelo{
+    color:#febe01;
+}
+
+a{
+    display: block;
+    width: 200px;
+    text-align: center;
+    background-color: #febe01;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+a:hover{
+    background-color: #332200;
+    color: #fff;
+}
