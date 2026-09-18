@@ -1,0 +1,14 @@
+span {
+    display: inline-block;
+    background: #918b8ba6;
+    padding: 30px;
+    padding:40px 100px 200px 10px;
+    border: 10px solid black;
+}
+
+.teste_2{
+    padding: 40px;
+    background:#ff0000;
+    border:20px solid #0000ff;
+    border-bottom: 30px solid #008000;
+}
