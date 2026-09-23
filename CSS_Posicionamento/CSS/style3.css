@@ -3,6 +3,20 @@ body{
     margin:40px;
 }
 
+.grid{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.foto{
+    grid-column: span 3;
+}
+
+.descricao{
+    grid-column: span 3;
+}
+
 h1{
     font-size: 50px;
 }
@@ -12,8 +26,7 @@ p{
 }
 
 img{
-    height: 400px;
-    width: 400px;
+   max-width: 100%;
 }
 
 .botao{
@@ -22,4 +35,5 @@ img{
     padding: 10px 10px;
     text-decoration: none;
     border-radius: 5px;
+    grid-column: span 3;
 }
