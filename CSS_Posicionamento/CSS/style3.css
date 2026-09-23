@@ -1,0 +1,25 @@
+body{
+    font-family:Arial;
+    margin:40px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+p{
+    font-size: 20px;
+}
+
+img{
+    height: 400px;
+    width: 400px;
+}
+
+.botao{
+    background:#a8f;
+    color:#103;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
