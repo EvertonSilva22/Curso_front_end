@@ -1,6 +1,7 @@
 h1{
     border: 2px solid #ccc;
     padding:20px 20px 200px 20px;
+    position:relative;
 }
 
 p{
@@ -16,4 +17,17 @@ p{
     left:0px;
     bottom:20px;
     background:#ccc;
+}
+
+span.relativo{
+    background:#e7e7e7;
+    border:2px solid #ccc;
+    padding: 10px;
+    bottom: -50px;
+    position: relative;
+}
+
+.absoluto{
+    position:absolute;
+    bottom: 10px;
 }
